@@ -1,0 +1,37 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: gray;
+}
+
+img{
+    height: 200px;
+}
+
+p{
+    text-align: center;
+}
+
+.row{
+    margin: 1em;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+#fila1{
+    background-color: pink;
+}
+
+#fila2{
+    background-color: aqua;
+    justify-content: space-evenly;
+}
+
+#fila3{
+    background-color: gold;
+    justify-content: space-around;
+}
